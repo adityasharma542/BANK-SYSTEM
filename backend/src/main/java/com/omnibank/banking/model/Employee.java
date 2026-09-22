@@ -1,4 +1,4 @@
-package com.apexbank.banking.model;
+package com.omnibank.banking.model;
 
 import jakarta.persistence.*;
 import java.time.LocalDateTime;

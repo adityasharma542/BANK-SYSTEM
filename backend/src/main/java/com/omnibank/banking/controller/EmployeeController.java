@@ -1,7 +1,7 @@
-package com.apexbank.banking.controller;
+package com.omnibank.banking.controller;
 
-import com.apexbank.banking.model.Employee;
-import com.apexbank.banking.service.EmployeeService;
+import com.omnibank.banking.model.Employee;
+import com.omnibank.banking.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -137,7 +137,7 @@ public class EmployeeController {
         String csvData = employeeService.generateCSV();
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.parseMediaType("text/csv"));
-        headers.setContentDispositionFormData("attachment", "Apex_Banking_Employees.csv");
+        headers.setContentDispositionFormData("attachment", "OmniBank_Employees.csv");
 
         return new ResponseEntity<>(csvData, headers, HttpStatus.OK);
     }

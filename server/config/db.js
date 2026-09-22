@@ -10,7 +10,7 @@ const initialSeedEmployees = [
   {
     emp_id: 'EMP-1001',
     full_name: 'Rahul Sharma',
-    email: 'rahul.sharma@apexbank.com',
+    email: 'rahul.sharma@omnibank.com',
     department: 'Retail Banking',
     designation: 'Senior Branch Manager',
     salary: 95000.00,
@@ -21,7 +21,7 @@ const initialSeedEmployees = [
   {
     emp_id: 'EMP-1002',
     full_name: 'Priya Patel',
-    email: 'priya.patel@apexbank.com',
+    email: 'priya.patel@omnibank.com',
     department: 'Risk & Compliance',
     designation: 'Chief Compliance Officer',
     salary: 120000.00,
@@ -32,7 +32,7 @@ const initialSeedEmployees = [
   {
     emp_id: 'EMP-1003',
     full_name: 'Vikramaditya Singh',
-    email: 'vikram.singh@apexbank.com',
+    email: 'vikram.singh@omnibank.com',
     department: 'Corporate Banking',
     designation: 'Relationship Officer',
     salary: 78000.00,
@@ -43,7 +43,7 @@ const initialSeedEmployees = [
   {
     emp_id: 'EMP-1004',
     full_name: 'Ananya Deshmukh',
-    email: 'ananya.d@apexbank.com',
+    email: 'ananya.d@omnibank.com',
     department: 'IT & Cybersecurity',
     designation: 'Lead Security Architect',
     salary: 135000.00,
@@ -54,7 +54,7 @@ const initialSeedEmployees = [
   {
     emp_id: 'EMP-1005',
     full_name: 'Amit Kumar',
-    email: 'amit.kumar@apexbank.com',
+    email: 'amit.kumar@omnibank.com',
     department: 'Loan Processing',
     designation: 'Senior Credit Analyst',
     salary: 68000.00,
@@ -65,7 +65,7 @@ const initialSeedEmployees = [
   {
     emp_id: 'EMP-1006',
     full_name: 'Sneha Reddy',
-    email: 'sneha.reddy@apexbank.com',
+    email: 'sneha.reddy@omnibank.com',
     department: 'Forex & Investment',
     designation: 'Treasury Operations Head',
     salary: 110000.00,
@@ -76,7 +76,7 @@ const initialSeedEmployees = [
   {
     emp_id: 'EMP-1007',
     full_name: 'Rohan Mehta',
-    email: 'rohan.mehta@apexbank.com',
+    email: 'rohan.mehta@omnibank.com',
     department: 'Retail Banking',
     designation: 'Teller / Desk Executive',
     salary: 45000.00,
@@ -87,7 +87,7 @@ const initialSeedEmployees = [
   {
     emp_id: 'EMP-1008',
     full_name: 'Kavita Verma',
-    email: 'kavita.v@apexbank.com',
+    email: 'kavita.v@omnibank.com',
     department: 'Risk & Compliance',
     designation: 'Fraud Analyst',
     salary: 72000.00,

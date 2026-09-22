@@ -360,7 +360,7 @@ exports.exportCSV = async (req, res) => {
     });
 
     res.setHeader('Content-Type', 'text/csv');
-    res.setHeader('Content-Disposition', 'attachment; filename="Apex_Banking_Employees.csv"');
+    res.setHeader('Content-Disposition', 'attachment; filename="OmniBank_Employees.csv"');
     return res.status(200).send(csvContent);
   } catch (error) {
     res.status(500).json({ success: false, message: 'Export failed', error: error.message });

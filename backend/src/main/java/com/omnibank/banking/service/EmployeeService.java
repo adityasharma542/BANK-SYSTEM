@@ -1,8 +1,8 @@
-package com.apexbank.banking.service;
+package com.omnibank.banking.service;
 
-import com.apexbank.banking.config.DatabaseConfig;
-import com.apexbank.banking.model.Employee;
-import com.apexbank.banking.repository.EmployeeRepository;
+import com.omnibank.banking.config.DatabaseConfig;
+import com.omnibank.banking.model.Employee;
+import com.omnibank.banking.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

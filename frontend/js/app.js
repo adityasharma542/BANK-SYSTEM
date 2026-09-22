@@ -1,4 +1,4 @@
-// APEX BANKING CORP - JAVA FULL STACK FRONTEND LOGIC
+// OMNIBANK SYSTEMS - JAVA FULL STACK FRONTEND LOGIC
 const API_BASE = 'http://localhost:8080/api/employees';
 
 let employeesData = [];

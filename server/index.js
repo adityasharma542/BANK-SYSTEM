@@ -27,7 +27,7 @@ app.use('/api/employees', employeeRoutes);
 app.get('/api/health', (req, res) => {
   res.status(200).json({
     status: 'online',
-    system: 'Apex Banking Employee Management System API',
+    system: 'OmniBank Employee Management System API',
     database: getStatus(),
     timestamp: new Date().toISOString()
   });

@@ -26,7 +26,7 @@ OMNIBANK SYSTEMS
 ├── backend/                      # Java Spring Boot REST API Service
 │   ├── pom.xml                   # Maven Build File (Java 17, Spring Boot 3)
 │   └── src/main/
-│       ├── java/com/apexbank/banking/
+│       ├── java/com/omnibank/banking/
 │       │   ├── BankingManagementApplication.java # Spring Boot Entry Point & Seed Runner
 │       │   ├── model/Employee.java              # JPA Entity (@Entity, @Table)
 │       │   ├── repository/EmployeeRepository.java# Spring Data JPA Repository

@@ -11,7 +11,7 @@
         <relativePath/>
     </parent>
     
-    <groupId>com.apexbank</groupId>
+    <groupId>com.omnibank</groupId>
     <artifactId>banking-management-system</artifactId>
     <version>1.0.0</version>
     <name>banking-management-system</name>

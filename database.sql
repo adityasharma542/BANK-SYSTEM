@@ -1,5 +1,5 @@
 -- ====================================================================
--- APEX BANKING CORP - JAVA FULL STACK EMPLOYEE MANAGEMENT SYSTEM
+-- OMNIBANK SYSTEMS - JAVA FULL STACK EMPLOYEE MANAGEMENT SYSTEM
 -- MYSQL DATABASE CREATION & SEED DATA SCRIPT
 -- ====================================================================
 
@@ -33,14 +33,14 @@ CREATE TABLE `employees` (
 
 -- 3. Insert Initial Banking Employee Seed Data
 INSERT INTO `employees` (`emp_id`, `full_name`, `email`, `department`, `designation`, `salary`, `branch_code`, `status`, `joining_date`) VALUES
-('EMP-1001', 'Rahul Sharma', 'rahul.sharma@apexbank.com', 'Retail Banking', 'Senior Branch Manager', 95000.00, 'BR-MUM-01', 'Active', '2021-03-15'),
-('EMP-1002', 'Priya Patel', 'priya.patel@apexbank.com', 'Risk & Compliance', 'Chief Compliance Officer', 120000.00, 'BR-DEL-02', 'Active', '2019-08-10'),
-('EMP-1003', 'Vikramaditya Singh', 'vikram.singh@apexbank.com', 'Corporate Banking', 'Relationship Officer', 78000.00, 'BR-BLR-04', 'Active', '2022-01-20'),
-('EMP-1004', 'Ananya Deshmukh', 'ananya.d@apexbank.com', 'IT & Cybersecurity', 'Lead Security Architect', 135000.00, 'BR-MUM-01', 'Active', '2020-05-12'),
-('EMP-1005', 'Amit Kumar', 'amit.kumar@apexbank.com', 'Loan Processing', 'Senior Credit Analyst', 68000.00, 'BR-HYD-05', 'On Leave', '2021-11-01'),
-('EMP-1006', 'Sneha Reddy', 'sneha.reddy@apexbank.com', 'Forex & Investment', 'Treasury Operations Head', 110000.00, 'BR-MUM-01', 'Active', '2018-04-18'),
-('EMP-1007', 'Rohan Mehta', 'rohan.mehta@apexbank.com', 'Retail Banking', 'Teller / Desk Executive', 45000.00, 'BR-PUN-03', 'Active', '2023-02-14'),
-('EMP-1008', 'Kavita Verma', 'kavita.v@apexbank.com', 'Risk & Compliance', 'Fraud Analyst', 72000.00, 'BR-DEL-02', 'Suspended', '2022-07-09');
+('EMP-1001', 'Rahul Sharma', 'rahul.sharma@omnibank.com', 'Retail Banking', 'Senior Branch Manager', 95000.00, 'BR-MUM-01', 'Active', '2021-03-15'),
+('EMP-1002', 'Priya Patel', 'priya.patel@omnibank.com', 'Risk & Compliance', 'Chief Compliance Officer', 120000.00, 'BR-DEL-02', 'Active', '2019-08-10'),
+('EMP-1003', 'Vikramaditya Singh', 'vikram.singh@omnibank.com', 'Corporate Banking', 'Relationship Officer', 78000.00, 'BR-BLR-04', 'Active', '2022-01-20'),
+('EMP-1004', 'Ananya Deshmukh', 'ananya.d@omnibank.com', 'IT & Cybersecurity', 'Lead Security Architect', 135000.00, 'BR-MUM-01', 'Active', '2020-05-12'),
+('EMP-1005', 'Amit Kumar', 'amit.kumar@omnibank.com', 'Loan Processing', 'Senior Credit Analyst', 68000.00, 'BR-HYD-05', 'On Leave', '2021-11-01'),
+('EMP-1006', 'Sneha Reddy', 'sneha.reddy@omnibank.com', 'Forex & Investment', 'Treasury Operations Head', 110000.00, 'BR-MUM-01', 'Active', '2018-04-18'),
+('EMP-1007', 'Rohan Mehta', 'rohan.mehta@omnibank.com', 'Retail Banking', 'Teller / Desk Executive', 45000.00, 'BR-PUN-03', 'Active', '2023-02-14'),
+('EMP-1008', 'Kavita Verma', 'kavita.v@omnibank.com', 'Risk & Compliance', 'Fraud Analyst', 72000.00, 'BR-DEL-02', 'Suspended', '2022-07-09');
 
 -- 4. Verification Select Query
 SELECT * FROM employees ORDER BY id DESC;
