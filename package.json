@@ -1,0 +1,29 @@
+{
+  "name": "employee-banking-management-system",
+  "version": "1.0.0",
+  "description": "Full Stack Advanced Banking Employee Management System with MySQL & Node.js REST API",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "client": "npm.cmd --prefix client run dev",
+    "dev": "concurrently \"npm.cmd run server\" \"npm.cmd run client\"",
+    "setup": "npm.cmd run setup:server && npm.cmd run setup:client",
+    "setup:server": "cd server && npm.cmd install",
+    "setup:client": "cd client && npm.cmd install"
+  },
+  "keywords": [
+    "banking",
+    "employee-management",
+    "mysql",
+    "crud",
+    "fullstack",
+    "react",
+    "express"
+  ],
+  "author": "Banking System Dev",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
